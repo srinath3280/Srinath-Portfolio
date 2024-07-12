@@ -1,13 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #050511;
+  /* background-color: rgb(1, 1, 19); */
+  /* background-color: rgb(1, 1, 22); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+.footer-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-block-left p {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.footer-block-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.bi-linkedin {
+  font-size: 15px;
+  color: #ffcc00;
+}
+
+.footer-block-right-linkedin {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(77, 77, 77);
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.bi-envelope-at {
+  font-size: 15px;
+  color: #ffcc00;
+}
+
+.footer-block-right-email {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(77, 77, 77);
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.bi-whatsapp {
+  font-size: 15px;
+  color: #ffcc00;
+}
+
+.footer-block-right-whatsapp {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(77, 77, 77);
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.bi-telephone {
+  font-size: 15px;
+  color: #ffcc00;
+}
+
+.footer-block-right-telephone {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(77, 77, 77);
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-block-left p {
+    font-size: 14px;
+    color: #fff;
+    margin: 10px;
+  }
+
+  .footer-block-right {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bi-linkedin {
+    font-size: 15px;
+    color: #ffcc00;
+  }
+
+  .footer-block-right-linkedin {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+
+  .bi-envelope-at {
+    font-size: 15px;
+    color: #ffcc00;
+  }
+
+  .footer-block-right-email {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+
+  .bi-whatsapp {
+    font-size: 15px;
+    color: #ffcc00;
+  }
+
+  .footer-block-right-whatsapp {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+
+  .bi-telephone {
+    font-size: 15px;
+    color: #ffcc00;
+  }
+
+  .footer-block-right-telephone {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 5px;
+  }
 }

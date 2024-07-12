@@ -1,0 +1,954 @@
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-heading {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-content-project1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project1-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-left img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-content-project1-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project1-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project1-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project2-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-left img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-content-project2-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project2-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project2-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project3-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-left img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-content-project3-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project3-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project3-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project4-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-left img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-content-project4-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project4-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project4-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-heading {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-content-project1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project1-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-left img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .project-content-project1-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project1-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project1-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project2-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-left img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .project-content-project2-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project2-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project2-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project3-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-left img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .project-content-project3-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project3-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project3-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 100px;
+    }
+
+    .project-content-project4-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-left img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .project-content-project4-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-right h1 {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project4-right p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project4-right-git p {
+        font-size: 16px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git span a {
+        font-size: 16px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-heading {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-content-project1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+
+    .project-content-project1-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-left img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .project-content-project1-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project1-right h1 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project1-right p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project1-right-git p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git span a {
+        font-size: 12px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+
+    .project-content-project2-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-left img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .project-content-project2-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project2-right h1 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project2-right p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project2-right-git p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git span a {
+        font-size: 12px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+
+    .project-content-project3-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-left img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .project-content-project3-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project3-right h1 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project3-right p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project3-right-git p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git span a {
+        font-size: 11px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+
+    .project-content-project4-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-left img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .project-content-project4-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .project-content-project4-right h1 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project4-right p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project4-right-git p {
+        font-size: 14px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git span a {
+        font-size: 12px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-heading {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-content-project1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 25px 25px;
+    }
+
+    .project-content-project1-left {
+        width: 40%;
+        height: auto;
+    }
+
+    .project-content-project1-left img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .project-content-project1-right {
+        width: 60%;
+        height: auto;
+    }
+
+    .project-content-project1-right h1 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project1-right p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project1-right-git p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project1-right-git span a {
+        font-size: 10px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 25px 25px;
+    }
+
+    .project-content-project2-left {
+        width: 40%;
+        height: auto;
+    }
+
+    .project-content-project2-left img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .project-content-project2-right {
+        width: 60%;
+        height: auto;
+    }
+
+    .project-content-project2-right h1 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project2-right p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project2-right-git p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project2-right-git span a {
+        font-size: 10px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 25px 25px;
+    }
+
+    .project-content-project3-left {
+        width: 40%;
+        height: auto;
+    }
+
+    .project-content-project3-left img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .project-content-project3-right {
+        width: 60%;
+        height: auto;
+    }
+
+    .project-content-project3-right h1 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project3-right p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project3-right-git p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project3-right-git span a {
+        font-size: 10px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+
+    .project-content-project4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 25px 25px;
+    }
+
+    .project-content-project4-left {
+        width: 40%;
+        height: auto;
+    }
+
+    .project-content-project4-left img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .project-content-project4-right {
+        width: 60%;
+        height: auto;
+    }
+
+    .project-content-project4-right h1 {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-content-project4-right p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git {
+        padding: 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .project-content-project4-right-git p {
+        font-size: 12px;
+        color: rgb(180, 179, 179);
+    }
+
+    .project-content-project4-right-git span a {
+        font-size: 10px;
+        color: rgb(104, 4, 185);
+        text-decoration: none;
+        margin-left: 10px;
+    }
+}
